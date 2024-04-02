@@ -5,10 +5,23 @@
 }
 
 body {
+    font-family: "Oswald", sans-serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 300px;
     color: #2C2B2B;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {
@@ -18,4 +31,10 @@ body {
     background-position: top center;
     min-height: 700px;
     color: #fff;
+}
+
+.header__top {
+    padding: 47px 0 45px;
+    display: flex;
+    justify-content: space-between;
 }
