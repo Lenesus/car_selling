@@ -37,4 +37,43 @@ a {
     padding: 47px 0 45px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.phone {
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 54px; 
+}
+
+.header__title {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 107px;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.header__subtitle {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.header__text {
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 14px 54px 15px;
+    background-color: #5A0D67;
+}
+
+/* .header_social {
+
+} */
