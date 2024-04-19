@@ -396,3 +396,17 @@ a {
     margin-top: 78px;
     cursor: pointer;
 }
+
+/*FOOTER*/
+
+.footer {
+    background-color: #21062A;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
+}
