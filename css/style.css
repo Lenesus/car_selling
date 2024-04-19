@@ -350,4 +350,46 @@ a {
 
 .contacts__form {
     background-color: #21062A;
+    padding: 50px 75px 57px; 
+    text-align: center;
+}
+
+.contacts__title {
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: 53px;
+    text-align: left;
+}
+
+.contacts__title::after {
+    background-color: #fff;
+}
+
+.contacts__input {
+    background-color: transparent;
+    width: 450px;
+    height: 75px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 24px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.contacts__input::placeholder {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #c4c4c4;
+} 
+
+.contacts__btn {
+    border: none;
+    color: #fff;
+    margin-top: 78px;
+    cursor: pointer;
 }
