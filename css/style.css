@@ -85,13 +85,16 @@ a {
 }
 
  .header__social {
-    padding: 70px 0 20px 65px;
-    display: flex;
-    align-items: center;
+    padding: 70px 0 20px 70px;
 } 
 
-.header__social-link {
-    margin-right: 10px;
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__link {
+    margin: 0 5px;
 }
 
 .header__images {
