@@ -415,9 +415,44 @@ a {
 
 /*ADAPTIVE*/
 
+@media (min-width: 1140px) {
+    .services__item:hover {
+        width: 450px;
+    }
+}
+
+
+
 @media (max-width: 1024px) {
     .header__images {
         width: 80%;
+    }
+
+    .services {
+        padding-top: 250px;
+    }
+
+    .services__inner {
+        flex-wrap: wrap;
+    }
+
+    .services__list {
+        order: -1;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .services__item {
+        width: 100%;
+    }
+
+    .services__item:hover {
+        width: 100%;
+    }
+
+    .services__content {
+        width: 100%;
+        margin-right: 0;
     }
 }
 
@@ -459,6 +494,16 @@ a {
 
     .social {
         justify-content: center;
+    }
+
+    .services {
+        padding-top: 150px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
     }
 }
 
