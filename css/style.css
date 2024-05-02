@@ -504,6 +504,24 @@ a {
         font-size: 28px;
         line-height: 36px;
         margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .title::after {
+        display: none;
+    }
+
+    body {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .services__item::before {
+        top: 5px;
+    }
+
+    .services__content {
+        text-align: center;
     }
 }
 
@@ -526,6 +544,30 @@ a {
     .header__images {
         position: static;
         width: 100%;
+    }
+
+    .services {
+        padding-top: 50px;
+    }
+
+    .services__item::before {
+        left: 11px;
+        padding: 10px 15px 10px 60px;
+    }
+
+    .button--decor::before {
+        right: -50px;
+    }
+
+    .button--decor::after {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 360px) {
+    .button--decor::before,
+    .button--decor::after {
+        display: none;
     }
 }
 
