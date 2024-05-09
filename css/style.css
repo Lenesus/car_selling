@@ -301,7 +301,7 @@ a {
 }
 
 .carousel__item-img {
-    min-width: 100%;
+    max-width: 100%;
     margin-bottom: 23px;
 }
 
@@ -553,6 +553,10 @@ a {
         font-size: 28px;
         line-height: 36px;
     }
+
+    .carousel__item-img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 520px) {
@@ -580,9 +584,12 @@ a {
         padding-top: 50px;
     }
 
+    .services__item {
+        padding: 10px 15px 10px 60px;
+    }
+
     .services__item::before {
         left: 11px;
-        padding: 10px 15px 10px 60px;
     }
 
     .button--decor::before {
@@ -594,8 +601,13 @@ a {
     }
 
     .services__inner,
-    .benefits {
+    .benefits,
+    .carousel {
         margin-bottom: 50px;
+    }
+
+    .carousel .slick-dots button {
+        width: 10px;
     }
     
 }
