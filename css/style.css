@@ -527,7 +527,6 @@ a {
     }
 }
 
-
 @media (max-width: 600px) {
     .header__content {
         padding-top: 0;
@@ -641,12 +640,6 @@ a {
         display: none;
     }
 }
-    
-
-
-/*@media (max-width: 360px) {
-
-}*/
 
 @media (max-width: 340px) {
     .header__title {
