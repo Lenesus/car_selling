@@ -484,6 +484,28 @@ a {
     .header__social {
         padding: 30px 0 20px 53px;
     }
+
+    .contacts__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .contacts__list {
+        margin-bottom: 30px;
+    }
+
+    .contacts__input {
+        width: 100%;
+    }
+
+    .contacts__btn {
+        margin-top: 20px;
+    }
+
+    .contacts__title {
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
 
@@ -609,15 +631,22 @@ a {
     .carousel .slick-dots button {
         width: 10px;
     }
-    
-}
 
-@media (max-width: 360px) {
+    .contacts__form {
+        padding: 50px 10px 57px;
+    }
+
     .button--decor::before,
     .button--decor::after {
         display: none;
     }
 }
+    
+
+
+/*@media (max-width: 360px) {
+
+}*/
 
 @media (max-width: 340px) {
     .header__title {
